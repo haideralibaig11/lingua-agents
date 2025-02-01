@@ -1,0 +1,294 @@
+<!-- -------- Complete -------- -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Talk To Us</title>
+    <link rel="icon" type="image/x-icon" href="../html/images/MainLogo.svg" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" type="text/css" href="css/allstyles.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <!-- home page main  -->
+    <div class="mainHome">
+      <header>
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="#">
+            <img src="../html/images/mainLogo.svg" alt="" />
+          </a>
+          <div class="" id="navbarSupportedContent">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target=""
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon">
+                <img src="../html/images/menuBar.png" alt="" />
+              </span>
+            </button>
+            <ul class="navbar-nav mr-auto">
+              <a href="#" class="sideNavClose">
+                <i class="far fa-window-close"></i>
+              </a>
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >Pricing <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Subscription</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FAQ</a>
+              </li>
+              <div class="headRightBtn hRBtnMob">
+                <a href="#"> Contact </a>
+                <a href="#"> Sign In </a>
+              </div>
+            </ul>
+          </div>
+          <div class="headerRight">
+            <!-- lang select  -->
+            <div class="langSelctRow">
+              <form>
+                <div class="form-group">
+                  <select
+                    class="form-control"
+                    id="languageSelect"
+                    aria-label="Language Select"
+                  >
+                    <option selected>English</option>
+                    <option>Hindi</option>
+                    <option>Dutch</option>
+                  </select>
+                </div>
+              </form>
+            </div>
+            <!-- lang select end  -->
+            <div class="headRightBtn">
+              <a href="#"> Contact </a>
+              <a href="#"> Sign In </a>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!-- home first section  -->
+      <div class="firstSecHome talkSec">
+        <h1>Talk To Us</h1>
+        <p>Let us know what you are looking for.</p>
+      </div>
+      <!-- home first section end -->
+
+      <!-- Subscription Form Start -->
+
+      <section class="SubsForm talkToUsForm">
+        <div class="contactForm">
+          <div class="subsContainer talkContainer">
+            <form>
+              <div class="subsNames">
+                <div class="fName">
+                  <label for="fName">Name</label>
+                  <input
+                    type="text"
+                    id="fName"
+                    placeholder="Enter full name"
+                    required
+                  />
+                </div>
+                <div class="lName">
+                  <label for="lName">Email</label>
+                  <input
+                    type="email"
+                    id="lName"
+                    placeholder="Enter last name"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="dropDowns">
+                <!-- Drop Down 1 -->
+                <div class="dropDown dropDown1">
+                  <label for="dropDown">Type of classes</label>
+                  <select name="dropDown" id="dropDown">
+                    <option value="english class">English class</option>
+                    <option value="english class">Math class</option>
+                    <option value="english class">Science class</option>
+                  </select>
+                </div>
+                <!-- Drop Down 2 -->
+                <div class="dropDown dropDown2">
+                  <label for="dropDown">Type of English</label>
+                  <select name="dropDown" id="dropDown">
+                    <option value="english class">Select type</option>
+                    <option value="english class">English UK</option>
+                    <option value="english class">English USA</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="subsEmail">
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="Type message"></textarea>
+              </div>
+              <div class="contactCheckBox">
+                <input type="checkbox" id="check" />
+                <label for="check"
+                  >I have read and agree to the Privacy Policy</label
+                >
+              </div>
+
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <div class="contactContainer">
+        <div class="contactBoxes">
+          <!-- Contact Box 1 -->
+          <div class="contactBox contactBox1">
+            <img src="./images/contactBox1.png" alt="" />
+            <h3>Email Us</h3>
+            <p class="contactText">
+              Email us for general queries, including marketing and partnership
+              opportunities.
+            </p>
+            <p class="email">hello@helpcenter.com</p>
+          </div>
+          <!-- Contact Box 2 -->
+          <div class="contactBox contactBox1">
+            <img src="./images/contactBox2.svg" alt="" />
+            <h3>Calls Us</h3>
+            <p class="contactText">
+              Call us to speak to a member of our team. We are always happy to
+              help.
+            </p>
+            <p class="email">+1 (646) 786-5060</p>
+          </div>
+          <!-- Contact Box 3 -->
+          <div class="contactBox contactBox1">
+            <img src="./images/contactBox3.svg" alt="" />
+            <h3>Support</h3>
+            <p class="contactText">
+              Check out helpful resources, FAQs and developer tools.
+            </p>
+            <a href="#" class="email">Support Center</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Subscription Form End -->
+
+      <!-- footer  -->
+      <footer>
+        <div class="footLogo">
+          <img
+            src="../html/images/whiteLogo.png"
+            alt=""
+            class="footWhiteLogo"
+          />
+          <div class="socialIconBox">
+            <a href="#">
+              <img src="../html/images/facebook.png" alt="" />
+            </a>
+            <a href="#">
+              <img src="../html/images/youtube.png" alt="" />
+            </a>
+            <a href="#">
+              <img src="../html/images/instagram.png" alt="" />
+            </a>
+            <a href="#">
+              <img src="../html/images/fi_5968958.png" alt="" />
+            </a>
+            <a href="#">
+              <img src="../html/images/linkedin.png" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="footRightSec">
+          <div class="quickLinkSec">
+            <h5>Quick Links</h5>
+            <a href="#"> About </a>
+            <a href="#"> Contact Us </a>
+            <a href="#"> Testimonials </a>
+            <a href="#"> Subsciptions </a>
+          </div>
+          <div class="quickLinkSec fCoursesSec">
+            <h5>Courses</h5>
+            <a href="#"> Automated AI Classes </a>
+            <a href="#"> Traditional Courses </a>
+            <a href="#"> Explainers and Exercises </a>
+          </div>
+          <div class="quickLinkSec supportLinkSec">
+            <h5>Support</h5>
+            <a href="#"> License </a>
+            <a href="#"> Get Started </a>
+            <a href="#"> Blog </a>
+            <a href="#"> FAQs </a>
+          </div>
+          <div class="socialIconBox">
+            <a href="#">
+              <img src="../html/images/facebook.png" alt="" />
+            </a>
+            <a href="#">
+              <img src="../html/images/youtube.png" alt="" />
+            </a>
+            <a href="#">
+              <img src="../html/images/instagram.png" alt="" />
+            </a>
+            <a href="#">
+              <img src="../html/images/fi_5968958.png" alt="" />
+            </a>
+            <a href="#">
+              <img src="../html/images/linkedin.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </footer>
+      <div class="copyRightSec">
+        <div>
+          <h5>© 2024 Lingua Agents.</h5>
+        </div>
+        <div class="copyRightLinkSec">
+          <a href="#"> Privacy Policy </a>
+          <a href="#"> Terms of Use </a>
+          <a href="#"> Cookies </a>
+        </div>
+      </div>
+
+      <!-- footer end -->
+    </div>
+    <!-- home page main end  -->
+    <script type="text/javascript " src="js/jquery.min.js "></script>
+    <script src="js/plugins.js "></script>
+    <script src="js/system.js "></script>
+  </body>
+</html>
